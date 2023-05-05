@@ -62,6 +62,7 @@ body {
 
 .card img:first-child {
     width: 100%;
+    height: 100%;
     position: absolute;
     z-index: -1;
 }
@@ -138,4 +139,25 @@ body {
     font-size: 1.4rem;
     line-height: 130%;
     color: var(--font-primary-color);
+}
+
+.left .title-wrapper, 
+.right .title-wrapper{
+    margin-bottom: 3rem;
+}
+
+.left .character-img, 
+.right .character-img {
+    bottom: -6rem;
+    right: -20%;
+}
+
+.middle .bb8 {
+    bottom: -10%;
+    right: -30%;
+}
+
+.middle .finn {
+    bottom: -10%;
+    right: -15%;
 }
