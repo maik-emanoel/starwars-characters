@@ -99,6 +99,7 @@ body {
     right: 0;
 
     height: 92%;
+    z-index: -1;
 }
 
 .title-wrapper {
