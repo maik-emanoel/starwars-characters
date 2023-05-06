@@ -58,6 +58,8 @@ body {
     border-radius: 1.6rem;
     box-shadow: var(--card-box-shadow);
     background: var(--card-bg-color);
+
+    filter: blur(3px);
 }
 
 .card img:first-child {
