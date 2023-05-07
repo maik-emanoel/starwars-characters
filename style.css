@@ -49,7 +49,6 @@ body {
     max-width: 34.8rem;
     width: 100%;
     height: 48.6rem;
-    transition: all 0.3s ease-in-out;
     position: relative;
     z-index: 1;
 
@@ -60,10 +59,7 @@ body {
     background: var(--card-bg-color);
 
     filter: blur(3px);
-}
-
-.card.middle {
-    filter: none;
+    transition: all .3s ease-in-out;
 }
 
 .card img:first-child {
@@ -87,6 +83,11 @@ body {
     border-radius: 2rem;
     box-shadow: var(--middle-card-box-shadow);
     cursor: auto;
+    filter: none;
+}
+
+.middle:hover {
+    filter: brightness(1.3);
 }
 
 .middle .character-img {
