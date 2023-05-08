@@ -15,7 +15,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-<br>
+O Starwars: Personagens é um projeto que utiliza cards para mostrar habilidades/características de alguns dos personagens da franquia Star Wars.<br>
 
 Projeto construído a partir do layout proposto no desafio [#BoraCodar18](https://boracodar.dev/) realizado pela [Rocketseat](https://rocketseat.com.br).
 Após o desenvolvimento do projeto inicial, adicionei novas features, tais quais:
