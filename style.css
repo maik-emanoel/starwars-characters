@@ -82,7 +82,7 @@ body {
 
     border-radius: 2rem;
     box-shadow: var(--middle-card-box-shadow);
-    cursor: auto;
+    cursor: pointer;
     filter: none;
 }
 
@@ -162,6 +162,12 @@ body {
 .right .character-img {
     bottom: -6rem;
     right: -20%;
+}
+
+.left:hover,
+.right:hover {
+    transition: all .5s ease-in-out;
+    transform: translateY(-2rem);
 }
 
 .middle .rey-skywalker {
