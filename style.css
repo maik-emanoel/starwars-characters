@@ -27,6 +27,8 @@ body {
     min-height: 100vh;
     font-size: 1.6rem;
     background: var(--bg-color);
+
+    user-select: none;
 }
 
 #app {
