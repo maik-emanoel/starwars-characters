@@ -110,7 +110,7 @@ body {
     gap: 1.6rem;
     flex-direction: column;
 
-    padding: 4.8rem 0 0 4rem;
+    padding: 4.8rem 4rem 0 4rem;
     width: 100%;
     margin-bottom: 6rem;
 }
@@ -160,21 +160,42 @@ body {
     color: var(--font-primary-color);
 }
 
-.left .title-wrapper, 
-.right .title-wrapper{
-    margin-bottom: 3rem;
+.left .character-img {
+    left: -3%;
+    bottom: -8rem;
 }
 
-.left .character-img, 
 .right .character-img {
     bottom: -6rem;
     right: -20%;
+}
+
+.right .character-name {
+    text-align: right;
 }
 
 .left:hover,
 .right:hover {
     transition: all .5s ease-in-out;
     transform: translateY(-2rem);
+}
+
+.left .rey-skywalker {
+    left: -26%;
+}
+
+.left .bb8 {
+    left: -15%;
+    bottom: -5rem;
+}
+
+.right .rey-skywalker {
+    right: 5%;
+}
+
+.right .finn {
+    right: -11%;
+    bottom: -9rem;
 }
 
 .middle .rey-skywalker {
