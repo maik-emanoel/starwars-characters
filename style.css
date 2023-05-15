@@ -131,7 +131,12 @@ body {
     color: var(--font-primary-color);
 }
 
+.description:not(.middle .description),
 .infos {
+    display: none;
+}
+
+.middle .infos {
     list-style: none;
     padding: 0 0 0 4rem;
     max-width: 23rem;
